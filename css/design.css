@@ -1,0 +1,165 @@
+.{
+    margin:0%;
+    padding-bottom: 0px;
+    bottom: 0%;
+}
+
+
+.header{
+    padding-top:35px;
+    padding-bottom: 20px;
+    background-color:#383737 ;
+    color: aliceblue;
+    text-align: center;
+    height: 70px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 40px;
+}
+h2{
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size:25px;
+    color: aliceblue;
+    background-color:#383737 ;
+    width:64%;
+}
+
+.opimg{
+
+float: right;
+padding-inline: 20px;
+margin-top: 0px;
+padding-top: 0px;
+
+
+}
+
+img{ 
+    padding-top: 20px;
+    padding-bottom: 40px;
+    align-self: center;
+    height:59px ;
+    padding-inline: 22px;
+    border: #383737;
+    float: left;
+}
+
+
+.com{
+   
+    height:280px ;
+    border-radius: 50px;
+   align-self: right;
+    border: #383737;
+    float: right;
+    padding-bottom: 0px;
+}
+hr{
+    height: 1ch;
+  background-color:  #383737;
+}
+
+h3{
+    font-size:25px;
+    font-style: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.detail{
+    padding-top: 70px;
+    font-size: 18px;
+  text-align: justify;
+    font-family: 'Merienda', cursive;
+}
+.cc{
+        position: fixed;
+    
+        bottom: 0px;
+        padding-bottom: 0px;
+        font-family: 'Merienda', cursive;
+        background-color: #747678;
+        width: 100%;
+
+      }
+      nav {
+        background-color: #383737 ;
+        height: 50px;
+      }
+      
+      nav ul {
+        margin: 0;
+        padding: 0px;
+        list-style: none;
+        position: relative;
+      }
+      
+      nav ul li {
+        display: inline-block;
+        padding-inline: 50px;
+        background-color: #383737  ;
+        height: 50px;
+        line-height: 50px;
+        vertical-align: top;
+      }
+      
+      nav ul li a {
+        display: block;
+        padding: 0 10px;
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+      }
+      
+      nav ul li:hover {
+        background-color: #666;
+      }
+      
+      nav ul ul {
+        display: none;
+        position: absolute;
+        top: 50px;
+      }
+      
+      nav ul li:hover > ul {
+        display:inherit;
+      }
+      
+      nav ul ul li {
+        width:200px;
+        float:none;
+        display:list-item;
+        position: relative;
+      }
+      
+      nav ul ul ul li {
+        position: relative;
+        top:-60px;
+        left:200px;
+      }
+      
+      nav a:hover, nav ul ul li:hover > a {
+        background-color:#666;
+        color:#fff;
+      }
+      
+      nav ul ul li:hover > a {
+        color:#fff;
+      }
+      
+      @media (max-width: 768px) {
+        nav ul li {
+          display: block;
+          width: 100%;
+        }
+        nav ul li a {
+          display: block;
+          padding: 0 10px;
+        }
+        nav ul ul {
+          display: none;
+          position: static;
+          top: auto;
+        }
+      }
+      
